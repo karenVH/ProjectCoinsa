@@ -1,0 +1,47 @@
+<div class="navar" *ngIf="!usuario">
+  <span class="navbar-brand mb-0 h1 text-light">COINSA</span>
+
+</div>
+
+
+
+ <div class="navar" *ngIf="usuario">
+        <div class="form-row perf">
+            <div class="btn-group per" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-user-cog text-light" style="font-size: 40px;"></i>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <a class="dropdown-item">Cerrar</a>
+                </div>
+            </div>
+        </div>
+        <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fas fa-bars" id="btn" style="font-size:60px;"></i>
+            <i class="fas fa-times" id="cancel" style="font-size:30px; padding:0;"></i>
+        </label>
+        <div class="sidebar">
+            <header>
+                <img src="assets/imagenes/logo.png" alt="" width="200px" height="80px;">
+            </header>
+            <ul class="menu">
+                <li>
+                    <a [routerLink]="['/registrarproductos']" >Registrar Productos</a>
+                </li>
+                <li>
+                    <a [routerLink]="['/consultar-producto']">Consultas</a>
+                </li>
+                <li>
+                    <a [routerLink]="['/ubicaciones']">Consultar Ubicaciones</a>
+                </li>
+                <li>
+                    <a [routerLink]="['/proximosvencer']" >Productos Próximos a vencer</a>
+                </li>
+                <li>
+                    <a [routerLink]="['/registrarsalida']">Registrar Salida</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <router-outlet></router-outlet>

@@ -1,0 +1,103 @@
+.nivel1{
+    background: #F5FFF7;
+    padding: 20px;
+    width: 1000px;
+    height: 500px;
+    margin: 10px;
+    font-family: 'Bree Serif', serif;
+}
+
+.nivel2{
+    background: #F5FFF7;
+    width: 1000px;
+    height: 500px;
+    margin: 10px;
+    font-family: 'Bree Serif', serif;
+}
+
+.nivel3{
+    background: #F5FFF7;
+    width: 1000px;
+    height: 500px;
+    margin: 10px;
+    font-family: 'Bree Serif', serif;
+}
+
+.nivel4{
+    background: #F5FFF7;
+    width: 1000px;
+    height: 500px;
+    margin: 10px;
+    font-family: 'Bree Serif', serif;
+}
+
+
+.peq{
+    padding: 0;
+    border: none;
+}
+
+.mar1{
+    width: 250px;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.ni1a{
+    padding: 0;
+    margin: 4px;;
+}
+
+.ni1a:hover{
+  color: white;
+}
+
+/*modal*/
+#ventana101,  #ventana102, #ventana103, #ventana104, #ventana105, #ventana106, #ventana107, #ventana108, #ventana109, #ventana110,
+#ventana111, #ventana112, #ventana113, #ventana114, #ventana115, #ventana116,
+#ventanab101,  #ventanab102, #ventanab103, #ventanab104, #ventanab105, #ventanab106, #ventanab107, #ventanab108, #ventanab109, #ventanab110,
+#ventanab111, #ventanab112, #ventanab113, #ventanab114, #ventanab115, #ventanab116,
+#ventanac101,  #ventanac102, #ventanac103, #ventanac104, #ventanac105, #ventanac106, #ventanac107, #ventanac108, #ventanac109, #ventanac110,
+#ventanac111, #ventanac112, #ventanac113, #ventanac114, #ventanac115, #ventanac116,
+#ventanad101,  #ventanad102, #ventanad103, #ventanad104, #ventanad105, #ventanad106, #ventanad107, #ventanad108, #ventanad109, #ventanad110,
+#ventanad111, #ventanad112, #ventanad113, #ventanad114, #ventanad115, #ventanad116,
+#ventanae101,  #ventanae102, #ventanae103, #ventanae104, #ventanae105, #ventanae106, #ventanae107, #ventanae108, #ventanae109, #ventanae110,
+#ventanae111, #ventanae112, #ventanae113, #ventanae114, #ventanae115, #ventanae116,
+#ventanaa201,  #ventanaa202, #ventanaa203, #ventanaa204, #ventanaa205, #ventanaa206, #ventanaa207, #ventanaa208, #ventanaa209, #ventanaa210,
+#ventanaa211, #ventanaa212, #ventanaa213, #ventanaa214, #ventanaa215, #ventanaa216,
+#ventanab201,  #ventanab202, #ventanab203, #ventanab204, #ventanab205, #ventanab206, #ventanab207, #ventanab208, #ventanab209, #ventanab210,
+#ventanab211, #ventanab212, #ventanab213, #ventanab214, #ventanab215, #ventanab216,
+#ventanac201,  #ventanac202, #ventanac203, #ventanac204, #ventanac205, #ventanac206, #ventanac207, #ventanac208, #ventanac209, #ventanac210,
+#ventanac211, #ventanac212, #ventanac213, #ventanac214, #ventanac215, #ventanac216,
+#ventanad201,  #ventanad202, #ventanad203, #ventanad204, #ventanad205, #ventanad206, #ventanad207, #ventanad208, #ventanad209, #ventanad210,
+#ventanad211, #ventanad212, #ventanad213, #ventanad214, #ventanad215, #ventanad216,
+#ventanae201,  #ventanae202, #ventanae203, #ventanae204, #ventanae205, #ventanae206, #ventanae207, #ventanae208, #ventanae209, #ventanae210,
+#ventanae211, #ventanae212, #ventanae213, #ventanae214, #ventanae215, #ventanae216,
+#ventanaa301,  #ventanaa302, #ventanaa303, #ventanaa304, #ventanaa305, #ventanaa306, #ventanaa307, #ventanaa308, #ventanaa309, #ventanaa310,
+#ventanaa311, #ventanaa312, #ventanaa313, #ventanaa314, #ventanaa315, #ventanaa316,
+#ventanab301,  #ventanab302, #ventanab303, #ventanab304, #ventanab305, #ventanab306, #ventanab307, #ventanab308, #ventanab309, #ventanab310,
+#ventanab311, #ventanab312, #ventanab313, #ventanab314, #ventanab315, #ventanab316,
+#ventanac301,  #ventanac302, #ventanac303, #ventanac304, #ventanac305, #ventanac306, #ventanac307, #ventanac308, #ventanac309, #ventanac310,
+#ventanac311, #ventanac312, #ventanac313, #ventanac314, #ventanac315, #ventanac316,
+#ventanad301,  #ventanad302, #ventanad303, #ventanad304, #ventanad305, #ventanad306, #ventanad307, #ventanad308, #ventanad309, #ventanad310,
+#ventanad311, #ventanad312, #ventanad313, #ventanad314, #ventanad315, #ventanad316,
+#ventanae301,  #ventanae302, #ventanae303, #ventanae304, #ventanae305, #ventanae306, #ventanae307, #ventanae308, #ventanae309, #ventanae310,
+#ventanae311, #ventanae312, #ventanae313, #ventanae314, #ventanae315, #ventanae316,
+#ventanaa401,  #ventanaa402, #ventanaa403, #ventanaa404, #ventanaa405, #ventanaa406, #ventanaa407, #ventanaa408, #ventanaa409, #ventanaa410,
+#ventanaa411, #ventanaa412, #ventanaa413, #ventanaa414, #ventanaa415, #ventanaa416,
+#ventanab401,  #ventanab402, #ventanab403, #ventanab404, #ventanab405, #ventanab406, #ventanab407, #ventanab408, #ventanab409, #ventanab410,
+#ventanab411, #ventanab412, #ventanab413, #ventanab414, #ventanab415, #ventanab416,
+#ventanac401,  #ventanac402, #ventanac403, #ventanac404, #ventanac405, #ventanac406, #ventanac407, #ventanac408, #ventanac409, #ventanac410,
+#ventanac411, #ventanac412, #ventanac413, #ventanac414, #ventanac415, #ventanac416,
+#ventanad401,  #ventanad402, #ventanad403, #ventanad404, #ventanad405, #ventanad406, #ventanad407, #ventanad408, #ventanad409, #ventanad410,
+#ventanad411, #ventanad412, #ventanad413, #ventanad414, #ventanad415, #ventanad416,
+#ventanae401,  #ventanae402, #ventanae403, #ventanae404, #ventanae405, #ventanae406, #ventanae407, #ventanae408, #ventanae409, #ventanae410,
+#ventanae411, #ventanae412, #ventanae413, #ventanae414, #ventanae415, #ventanae416{
+    background-color: #ffffff ;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #3CCB56;
+    border-radius: 10px;
+    width: 40%;
+    height: 50%;
+}

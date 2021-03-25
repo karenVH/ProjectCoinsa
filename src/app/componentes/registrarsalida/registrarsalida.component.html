@@ -1,0 +1,42 @@
+<div class="container">
+  <form>
+      <h1 class="text-success text-center">Registrar Salida</h1>
+      <div class="form-row">
+          <div class="form-group col-md-6">
+              <label for="IdLote">Lote</label>
+              <input type="text" name="lote" class="form-control" id="IdLote">
+          </div>
+          <div class="form-group col-md-6">
+              <label for="IdPeso">Cantidad</label>
+              <input type="number" name="cantidad" class="form-control" id="IdPeso">
+          </div>
+      </div>
+      <div class="form-row">
+          <div class="form-group col-md-6">
+              <label for="IdNReferencia">Nombre de Referencia</label>
+              <input type="text" name="nameReferencia" class="form-control" id="IdNReferencia">
+          </div>
+          <div class="form-group col-md-6">
+              <label for="IdFechaVence">Fecha Movimiento</label>
+              <input type="date" name="fechaMovimeinto" class="form-control" id="IdFechaVence">
+          </div>
+      </div>
+      <div class="form-row">
+          <div class="form-group col-md-6">
+              <label for="IdBenefactor">Beneficiado</label>
+              <input type="text" name="beneficiado" class="form-control" id="IdBenefactor">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="IdResponsable">Responsable</label>
+            <select id="IdResponsable" class="form-control">
+                <option value=""></option>
+                <option>RAUL ALFONSO GUTIERREZ</option>
+                <option>RUMILDA AGUALIMPIAS</option>
+            </select>
+          </div>
+      </div>
+
+      <button type="reset" class="btn btn-primary">Limpiar</button>
+      <button type="submit" class="btn btn-success">Guardar</button>
+  </form>
+</div>

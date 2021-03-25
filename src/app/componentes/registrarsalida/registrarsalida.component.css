@@ -1,0 +1,9 @@
+form{
+    width: 900px;
+    padding: 10px;
+    transform: translate(10%, 5%)
+}
+
+button{
+  margin:10px;
+}

@@ -1,0 +1,89 @@
+<div class="container">
+  <form>
+      <h1 class="text-success text-center">Registrar Productos</h1>
+      <div class="form-row">
+          <div class="form-group col-md-6">
+              <label for="IdLote">Lote</label>
+              <input type="text" name="lote" class="form-control" id="IdLote">
+          </div>
+          <div class="form-group col-md-6">
+              <label for="IdCategoria">Categoria</label>
+              <input type="text" name="categoria" class="form-control" id="IdCategoria">
+          </div>
+      </div>
+      <div class="form-row">
+          <div class="form-group col-md-6">
+              <label for="IdNReferencia">Nombre de Referencia</label>
+              <input type="text" name="nameReferencia" class="form-control" id="IdNReferencia">
+          </div>
+          <div class="form-group col-md-6">
+              <label for="IdPeso">Peso</label>
+              <input type="number" name="peso" class="form-control" id="IdPeso">
+          </div>
+      </div>
+      <div class="form-row">
+          <div class="form-group col-md-6">
+              <label for="IdFechaVence">Fecha vencimiento</label>
+              <input type="date" name="fechaVencimiento" class="form-control" id="IdFechaVence">
+          </div>
+          <div class="form-group col-md-6">
+              <label for="IdSituacion">Situacion </label>
+              <input type="text" name="situacion" value="" id="IdSituacion" class="form-control">
+          </div>
+      </div>
+      <div class="form-row">
+          <div class="form-group col-md-6">
+              <label for="IdBenefactor">Benefactor</label>
+              <input type="text" name="benefactor" class="form-control" id="IdBenefactor">
+          </div>
+          <div class="form-group col-md-6">
+              <label for="IdCantidad">Cantidad</label>
+              <input type="number" name="cantidad" class="form-control" id="IdCantidad">
+          </div>
+      </div>
+
+      <div class="form-row">
+          <div class="form-group col-md-6">
+              <label for="IdResponsable">Responsable</label>
+              <select id="IdResponsable" class="form-control">
+                  <option value=""></option>
+                  <option>RAUL ALFONSO GUTIERREZ</option>
+                  <option>RUMILDA AGUALIMPIAS</option>
+              </select>
+          </div>
+          <div class="form-group col-md-6">
+              <label for="IdMovimiento">Movimiento</label>
+              <select id="IdMovimiento" class="form-control">
+                  <option value=""></option>
+                  <option>SALIDA</option>
+                  <option>ENTRADA</option>
+              </select>
+          </div>
+      </div>
+
+      <div class="form-row">
+          <div class="form-group col-md-6">
+              <label for="IdFechaMovi">Fecha movimiento</label>
+              <input type="date" class="form-control" id="IdFechaMovi">
+          </div>
+          <div class="form-group col-md-6">
+              <label for="IdUbicacion">Ubicacion</label>
+              <select id="IdUbicacion" class="form-control">
+                  <option value=""></option>
+                  <option>A-101</option>
+                  <option>A-102</option>
+              </select>
+          </div>
+      </div>
+
+      <div class="form-row">
+              <div class="form-group col-md-6">
+                  <label for="IdDisponibilidad">Disponibilidad</label>
+                  <input type="text" class="form-control" id="IdDisponibilidad">
+              </div>
+
+          </div>
+      <button type="reset" class="btn btn-primary">Limpiar</button>
+      <button type="submit" class="btn btn-success" onclick=" return IngresarProd()">Guardar</button>
+  </form>
+</div>

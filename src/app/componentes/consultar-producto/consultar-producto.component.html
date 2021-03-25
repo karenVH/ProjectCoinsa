@@ -1,0 +1,78 @@
+<div class="container">
+  <!-- <form>
+             <h1 class="text-success text-center">Consultar Productos</h1>
+             <div class="form-group">
+               <div class="row">
+                 <div class="col-md-6">
+                   <label for="formGroupExampleInput">Lote</label>
+                   <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingresa el lote del producto para poder consultar">
+                 </div>
+                 <div class="col-md-6">
+                   <label for="formGroupExampleInput">Fecha Vencimiento</label>
+                   <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingresa la Fecha de Vencimiento del producto para poder consultar">
+                 </div>
+               </div>
+               <div class="row">
+                 <div class="col-md-6">
+                   <label for="formGroupExampleInput">Nombre Referencia</label>
+                   <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingresa Nombre de Referencia del producto para poder consultar">
+                 </div>
+                 <div class="col-md-6">
+                   <label for="formGroupExampleInput">Categoria</label>
+                   <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingresa la Categoria del producto para poder consultar">
+                 </div>
+               </div>
+               <div class="row">
+                 <div class="col-md-6">
+                   <label for="formGroupExampleInput">Ubicaciones</label>
+                   <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingresa Ubicacion del producto para poder consultar">
+                 </div>
+               </div>
+             </div>
+             <div class="row">
+                     <button type="submit" class="btn btn-success" style="margin: 10px">Consultar</button>
+                     <button type="submit" class="btn btn-danger" style="margin: 10px">Eliminar</button>
+             </div>
+    </form> -->
+   <hr><br>
+   <pre>
+   <table class="table">
+           <thead class="thead-success">
+             <tr class="table-success">
+               <th scope="col">ID</th>
+               <th scope="col">LOTE</th>
+               <th scope="col">CATEGORIA</th>
+               <th scope="col">NOMBRE REFERENCIA</th>
+               <th scope="col">PESO</th>
+               <th scope="col">FECHA VENCIMIENTO</th>
+               <th scope="col">SITUACION</th>
+               <th scope="col">BENEFACTOR</th>
+               <th scope="col">CANTIDAD</th>
+               <th scope="col">RESPONSABLE</th>
+               <th scope="col">MOVIMIENTO</th>
+               <th scope="col">FECHA MOVIMIENTO</th>
+               <th scope="col">DISPONIBILIDAD</th>
+               <th scope="col">UBICACION</th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr *ngFor="let catalogo of productos">
+               <th scope="row">{{catalogo.idProductos}}</th>
+               <td>Mark</td>
+               <td>Otto</td>
+               <td>@mdo</td>
+               <td>@mdo</td>
+               <td>{{catalogo.FechaVencimiento | date:'medium'}}</td>
+               <td>@mdo</td>
+               <td>@mdo</td>
+               <td>@mdo</td>
+               <td>@mdo</td>
+               <td>@mdo</td>
+               <td>@mdo</td>
+               <td>@mdo</td>
+               <td>@mdo</td>
+             </tr>
+           </tbody>
+         </table>
+       </pre>
+       </div>
